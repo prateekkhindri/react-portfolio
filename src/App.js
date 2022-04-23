@@ -1,7 +1,7 @@
 // import logo from './logo.svg';
 import "./App.css";
 
-import Button from "react-bootstrap/Button";
+// import Button from "react-bootstrap/Button";
 import { TopNav } from "./components/top-nav/TopNav";
 import { Projects } from "./components/projects/Projects";
 import { AboutMe } from "./components/about-me/AboutMe";

@@ -1,5 +1,6 @@
 import React from "react";
 import second from "../../assets/p1.png";
+import { Container, Row, Col } from "react-bootstrap";
 
 export const Projects = () => {
   return (
@@ -11,18 +12,18 @@ export const Projects = () => {
         <div className="pro-content">
           {/* <!-- Container here again will give space on the left and right of the page --> */}
           {/* <!-- mt-5 is the margin top which will push the content down --> */}
-          <div className="container mt-5">
-            <div className="row mt-5 py-5">
+          <Container className="container mt-5">
+            <Row className=" mt-5 py-5">
               {/* <!-- col-md divides the content equally from a 12 grid --> */}
               {/* <!-- As long as we do not provide a number the space is equally divided --> */}
-              <div className="col-md-6">
+              <Col md={6}>
                 <img
                   src={second}
                   alt="Portfolio"
                   className="img-fluid img-thumbnail"
                 />
-              </div>
-              <div className="col-md-6 mt-5 mt-md-0">
+              </Col>
+              <Col md={6} className="mt-5 mt-md-0">
                 <h2>My Portfolio website</h2>
                 <div className="links fs-3">
                   <a href="#" target="_blank">
@@ -45,20 +46,20 @@ export const Projects = () => {
                   deserunt et dolores, maiores placeat sunt ea aperiam molestiae
                   tempora ut. Consequatur, quo quaerat!
                 </p>
-              </div>
-            </div>
-            <div className="row mt-5 py-5">
+              </Col>
+            </Row>
+            <Row className="mt-5 py-5">
               {/* <!-- col-md divides the content equally from a 12 grid --> */}
               {/* <!-- As long as we do not provide a number the space is equally divided --> */}
               {/* <!-- order-md-1 changes the order --> */}
-              <div className="col-md-6 order-md-1">
+              <Col md={6} className="order-md-1">
                 <img
                   src={second}
                   alt="Portfolio"
                   className="img-fluid img-thumbnail"
                 />
-              </div>
-              <div className="col-md-6 mt-5 mt-md-0">
+              </Col>
+              <Col md={6} className="mt-5 mt-md-0">
                 <h2>My Portfolio website</h2>
                 <div className="links fs-3">
                   <a href="#" target="_blank">
@@ -81,19 +82,19 @@ export const Projects = () => {
                   deserunt et dolores, maiores placeat sunt ea aperiam molestiae
                   tempora ut. Consequatur, quo quaerat!
                 </p>
-              </div>
-            </div>
-            <div className="row mt-5 py-5">
+              </Col>
+            </Row>
+            <Row className="mt-5 py-5">
               {/* <!-- col-md divides the content equally from a 12 grid --> */}
               {/* <!-- As long as we do not provide a number the space is equally divided --> */}
-              <div className="col-md-6">
+              <Col md={6}>
                 <img
                   src={second}
                   alt="Portfolio"
                   className="img-fluid img-thumbnail"
                 />
-              </div>
-              <div className="col-md-6 mt-5 mt-md-0">
+              </Col>
+              <Col md={6} className="mt-5 mt-md-0">
                 <h2>My Portfolio website</h2>
                 <div className="links fs-3">
                   <a href="#" target="_blank">
@@ -116,9 +117,9 @@ export const Projects = () => {
                   deserunt et dolores, maiores placeat sunt ea aperiam molestiae
                   tempora ut. Consequatur, quo quaerat!
                 </p>
-              </div>
-            </div>
-          </div>
+              </Col>
+            </Row>
+          </Container>
         </div>
       </section>
     </div>
