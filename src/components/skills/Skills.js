@@ -1,8 +1,9 @@
 import React from "react";
+import { MainLayout } from "../../layout/MainLayout";
 
 export const Skills = () => {
   return (
-    <div>
+    <MainLayout>
       <section className="container skills mt-5 py-5">
         {/* <!-- mt-5 and py-5 pushes the content down --> */}
         <div className="sec-title fs-1 fw-bolder text-center m-auto">
@@ -21,6 +22,6 @@ export const Skills = () => {
           </span>
         </div>
       </section>
-    </div>
+    </MainLayout>
   );
 };

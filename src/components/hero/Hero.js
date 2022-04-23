@@ -5,7 +5,7 @@ import { Container, Row, Col } from "react-bootstrap";
 export const Hero = () => {
   return (
     <div>
-      <div className="hero">
+      <div className="hero main-page">
         <Container>
           <Row className="mt-5 py-3">
             {/* <!-- Below md takes 12 grid --> */}

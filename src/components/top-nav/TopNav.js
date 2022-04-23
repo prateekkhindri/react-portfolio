@@ -1,21 +1,32 @@
 import React from "react";
 import { Container, Nav, Navbar } from "react-bootstrap";
-import second from "../../assets/logo.png";
+import logo from "../../assets/logo.png";
+import { Link } from "react-router-dom";
 
 export const TopNav = () => {
   return (
     <Navbar expand="lg">
       <Container>
-        <Navbar.Brand href="#">
-          <img src={second} alt="logo" width="100px" />
+        <Navbar.Brand>
+          <Link to="/">
+            <img src={logo} alt="logo" width="100px" />
+          </Link>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ms-auto">
-            <Nav.Link href="#skills">Skills</Nav.Link>
-            <Nav.Link href="#projects">Projects</Nav.Link>
-            <Nav.Link href="#about">About Me</Nav.Link>
-            <Nav.Link href="#contact">Contact</Nav.Link>
+            <Link to="/skills" className="nav-link">
+              Skills
+            </Link>
+            <Link to="/projects" className="nav-link">
+              Projects
+            </Link>
+            <Link to="/about-me" className="nav-link">
+              About Me
+            </Link>
+            <Link to="/contact" className="nav-link">
+              Contact
+            </Link>
             {/* Delete the NavDropdown */}
           </Nav>
         </Navbar.Collapse>
@@ -24,7 +35,7 @@ export const TopNav = () => {
 
     // <nav className="navbar navbar-expand-md navbar-light">
     //   <div className="container">
-    //     <a className="navbar-brand" href="#">
+    //     <a className="navbar-brand" href="/">
     //       {/* <!-- Inserting our logo --> */}
     //       <img src={second} alt="logo" width="100px" />
     //     </a>

@@ -1,8 +1,9 @@
 import React from "react";
+import { MainLayout } from "../../layout/MainLayout";
 
 export const Contact = () => {
   return (
-    <div>
+    <MainLayout>
       <section id="contact" className="container mt-5">
         <div className="contact-icons rounded">
           <div className="sec-title fs-1 fw-bolder text-center m-auto mt-5">
@@ -33,6 +34,6 @@ export const Contact = () => {
           </div>
         </div>
       </section>
-    </div>
+    </MainLayout>
   );
 };
