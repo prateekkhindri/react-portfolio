@@ -28,7 +28,7 @@ export const Projects = () => {
                 <div className="links fs-3">
                   <a href="#" target="_blank">
                     <i className="fab fa-github-square"></i>
-                  </a>
+                  </a>{" "}
                   <a href="#" target="_blank">
                     <i className="fab fa-chrome"></i>
                   </a>
@@ -64,7 +64,7 @@ export const Projects = () => {
                 <div className="links fs-3">
                   <a href="#" target="_blank">
                     <i className="fab fa-github-square"></i>
-                  </a>
+                  </a>{" "}
                   <a href="#" target="_blank">
                     <i className="fab fa-chrome"></i>
                   </a>
@@ -99,7 +99,7 @@ export const Projects = () => {
                 <div className="links fs-3">
                   <a href="#" target="_blank">
                     <i className="fab fa-github-square"></i>
-                  </a>
+                  </a>{" "}
                   <a href="#" target="_blank">
                     <i className="fab fa-chrome"></i>
                   </a>

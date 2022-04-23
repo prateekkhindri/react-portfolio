@@ -1,4 +1,5 @@
 import React from "react";
+import { Col, Row } from "react-bootstrap";
 import second from "../../assets/b.jpg";
 
 export const AboutMe = () => {
@@ -8,11 +9,11 @@ export const AboutMe = () => {
         <div className="sec-title fs-1 fw-bolder text-center m-auto mt-5">
           About Me
         </div>
-        <div className="row mt-5">
-          <div className="col-md-4 text-center mb-3">
+        <Row className="mt-5">
+          <Col md={4} className="text-center mb-3">
             <img src={second} alt="" className="" width="70%" />
-          </div>
-          <div className="col-md-8">
+          </Col>
+          <Col md={8}>
             <p>
               Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias
               provident veritatis expedita soluta voluptates qui harum nobis
@@ -25,8 +26,8 @@ export const AboutMe = () => {
               reiciendis nam dolor exercitationem neque, quaerat cum quos non
               aliquam voluptas nemo!
             </p>
-          </div>
-        </div>
+          </Col>
+        </Row>
       </section>
     </div>
   );
