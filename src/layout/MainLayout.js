@@ -6,7 +6,7 @@ export const MainLayout = ({ children }) => {
   return (
     <div>
       <TopNav />
-      {children}
+      <div className="main-page">{children}</div>
       <Footer />
     </div>
   );
